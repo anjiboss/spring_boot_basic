@@ -35,12 +35,12 @@ public class Database {
         return new CommandLineRunner() {
             @Override
             public void run(String... args) throws Exception {
-                Product productA = new Product( "Macbook Pro");
-                Product productB = new Product( "Macbook Air");
-                Product productC = new Product( "Samsung Galaxy Fold 3");
-                logger.info("Insert Data: " + repo.save(productA));
-                logger.info("Insert Data: " + repo.save(productB));
-                logger.info("Insert Data: " + repo.save(productC));
+//                Product productA = new Product( "Macbook Pro", 2001);
+//                Product productB = new Product( "Macbook Air", 2005);
+//                Product productC = new Product( "Samsung Galaxy Fold 3", 2021);
+//                logger.info("Insert Data: " + repo.save(productA));
+//                logger.info("Insert Data: " + repo.save(productB));
+//                logger.info("Insert Data: " + repo.save(productC));
             }
         };
     }
